@@ -1,0 +1,16 @@
+########################
+# Sources
+########################
+# This is the default behavior of sysklogd package
+# Logs may come from unix stream, but not from another machine.
+#
+source s_src {
+       system();
+       internal();
+};
+
+{% include "common/syslog-ng/" + syslog_ng_config_version + "/filters.j2" %}
+
+{% include "local/syslog-ng/" + syslog_ng_config_version + "/destinations.j2" %}
+
+{% include "local/syslog-ng/" + syslog_ng_config_version + "/logpaths.j2" %}

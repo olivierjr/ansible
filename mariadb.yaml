@@ -1,0 +1,8 @@
+---
+- name: Install mariadb
+  become: yes
+  vars:
+    mariadb_version: "10.5"
+  collections:
+    - community.mysql
+      

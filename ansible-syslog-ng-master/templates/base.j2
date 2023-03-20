@@ -1,0 +1,6 @@
+{% import "macros.j2" as macros with context %}
+{% include "header.j2" %}
+
+{% include syslog_ng_mode + "/statements.j2" %}
+
+{{ macros.add_includes(syslog_ng_config_post_includes) }}

@@ -1,0 +1,29 @@
+---
+- hosts: syslog-client
+  become: yes
+  tasks:
+    - name: delete base.conf
+      file:
+        path: /etc/syslog-ng/conf.d/base.conf
+        state: absent
+    - name: Copy file in servers
+      copy:
+        src: /home/ansible/syslog/client.conf
+        dest: /etc/syslog-ng/conf.d/client.conf
+    - name: Restart service syslog-ng, in all cases
+      service:
+        name: syslog-ng
+        state: restarted
+    - name: delete jail.local
+      file:
+        path: /etc/fail2ban/jail.local
+        state: absent
+    - name: Copy file in servers
+      copy:
+        src: /home/ansible/syslog/jail.local
+        dest: /etc/fail2ban/jail.local
+    - name: Restart service fail2ban, in all cases
+      service:
+        name: fail2ban
+        state: restarted
+

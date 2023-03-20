@@ -1,0 +1,17 @@
+---
+
+- name: show version
+  hosts: TELNET_SW
+  gather_facts: false
+  connection: local
+  tasks:
+    - name: run show commands
+      telnet:
+        user: artpsw
+        password: ar09tp04!
+        login_prompt: 'Username: '
+        prompts:
+          - '[>#]'
+        command: 
+          - show version | inc uptime
+          - sh int gi0/7 | inc rate

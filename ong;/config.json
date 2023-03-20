@@ -1,0 +1,57 @@
+{
+ 	"mysql": {
+ 		"host": "127.0.0.1:3306",
+ 		"user": "semaphore",
+ 		"pass": "semaphore",
+ 		"name": "semaphore",
+ 		"options": null
+ 	},
+ 	"bolt": {
+ 		"host": "",
+ 		"user": "",
+ 		"pass": "",
+ 		"name": "",
+ 		"options": null
+ 	},
+ 	"postgres": {
+ 		"host": "",
+ 		"user": "",
+ 		"pass": "",
+ 		"name": "",
+ 		"options": null
+ 	},
+ 	"dialect": "mysql",
+ 	"port": "",
+ 	"interface": "",
+ 	"tmp_path": "Error",
+ 	"cookie_hash": "ai4vlbz826e7qvVADlXhNHRiOAka3wk0uiU+ah1Krcc=",
+ 	"cookie_encryption": "wGamch+O6cGqdHZ0cYIDGb0wyz0Xmn6jRa1IECOcUf0=",
+ 	"access_key_encryption": "SdqgIJng1Gs3e/fpegw6rIG2E3RuvsUpqjUzTqcjEJ0=",
+ 	"email_sender": "",
+ 	"email_host": "",
+ 	"email_port": "",
+ 	"email_username": "",
+ 	"email_password": "",
+ 	"web_host": "071:",
+ 	"ldap_binddn": "",
+ 	"ldap_bindpassword": "",
+ 	"ldap_server": "",
+ 	"ldap_searchdn": "",
+ 	"ldap_searchfilter": "",
+ 	"ldap_mappings": {
+ 		"dn": "",
+ 		"mail": "",
+ 		"uid": "",
+ 		"cn": ""
+ 	},
+ 	"telegram_chat": "",
+ 	"telegram_token": "",
+ 	"max_parallel_tasks": 0,
+ 	"email_alert": false,
+ 	"email_secure": false,
+ 	"telegram_alert": false,
+ 	"ldap_enable": false,
+ 	"ldap_needtls": false,
+ 	"ssh_config_path": "",
+ 	"demo_mode": false
+ }

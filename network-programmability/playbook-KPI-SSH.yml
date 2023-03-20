@@ -1,0 +1,8 @@
+---
+- hosts: KPI-SSH
+  tasks:
+    - name: show Switch version
+      cisco.ios.ios_command:
+        commands:
+          - show version | inc uptime
+          - sh int gi0/7 | inc rate

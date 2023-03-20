@@ -1,0 +1,37 @@
+[arcep-linux]
+EVE-ARCEP	ansible_host=10.1.75.12
+Z1SRV-COUVERTURE	ansible_host=172.16.3.11
+Z1SRV-EMF-3	ansible_host=172.16.3.12
+Z2SRV-ECONOM01	ansible_host=10.1.25.13
+Z2SRV-ELK02	ansible_host=192.168.210.84
+Z2SRV-INDIC	ansible_host=10.1.25.5
+Z2SRV-NAGIOS01	ansible_host=10.1.75.11
+Z2SRV-WIKI01	ansible_host=10.1.75.7
+Z3SRV-DIGITAL03	ansible_host=10.1.55.8
+Z3SRV-PORTAIL-SERVICE	ansible_host=10.1.55.11
+Z3SRV-PROXY-HA	ansible_host=10.1.55.5
+Z3SRV-SYSLOG	ansible_host=192.168.210.87
+Z4SRV-DATAQOS01	ansible_host=10.1.25.9
+Z5SRV-DNS01	ansible_host=192.168.210.53
+Z5SRV-DNS02	ansible_host=192.168.210.54
+Z5SRV-ZABBIX01	ansible_host=192.168.210.91
+
+[syslog-server]
+Z3SRV-SYSLOG    ansible_host=192.168.210.87
+
+[syslog-client]
+EVE-ARCEP       ansible_host=10.1.75.12
+Z1SRV-COUVERTURE        ansible_host=172.16.3.11
+Z1SRV-EMF-3     ansible_host=172.16.3.12
+Z2SRV-ECONOM01  ansible_host=10.1.25.13
+Z2SRV-ELK02     ansible_host=192.168.210.84
+Z2SRV-INDIC     ansible_host=10.1.25.5
+Z2SRV-NAGIOS01  ansible_host=10.1.75.11
+Z2SRV-WIKI01    ansible_host=10.1.75.7
+Z3SRV-DIGITAL03 ansible_host=10.1.55.8
+Z3SRV-PORTAIL-SERVICE   ansible_host=10.1.55.11
+Z3SRV-PROXY-HA  ansible_host=10.1.55.5
+Z4SRV-DATAQOS01 ansible_host=10.1.25.9
+Z5SRV-DNS01     ansible_host=192.168.210.53
+Z5SRV-DNS02     ansible_host=192.168.210.54
+Z5SRV-ZABBIX01  ansible_host=192.168.210.91

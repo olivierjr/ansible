@@ -1,0 +1,8 @@
+---
+- hosts: NEXUS
+  tasks:
+    - name: show Switch version
+      cisco.nxos.nxos_command:
+        commands:
+          - show version | inc uptime
+          - sh int eth1/16 | inc rate

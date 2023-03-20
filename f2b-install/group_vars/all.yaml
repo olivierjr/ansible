@@ -1,0 +1,6 @@
+# Configure these based on your servers.
+# 
+ansible_python_interpreter: /usr/bin/python3
+ansible_ssh_user: cm-auto
+ansible_ssh_private_key_file: ~/.ssh/id_rsa
+

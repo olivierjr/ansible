@@ -1,0 +1,72 @@
+# Ce fichier viminfo a été généré par Vim 8.0.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# Viminfo version
+|1,4
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Historique ligne de commande (chronologie décroissante) :
+:q!
+|2,0,1673890922,,"q!"
+:1257
+|2,0,1673890864,,"1257"
+
+# Historique chaîne de recherche (chronologie décroissante) :
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique Ligne de débogage (chronologie décroissante) :
+
+# Registres :
+
+# Marques dans le fichier :
+'0  1257  16  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,48,1257,16,1673890922,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+'1  1255  16  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,49,1255,16,1673890148,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+'2  1255  16  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,50,1255,16,1673890148,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+'3  1  1  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,51,1,1,1673890011,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+'4  1  1  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,52,1,1,1673890011,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+'5  1  1  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,53,1,1,1673890011,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+'6  1  1  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,54,1,1,1673890011,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+
+# Liste de sauts (le plus récent en premier) :
+-'  1257  16  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,39,1257,16,1673890922,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+-'  1255  16  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,39,1255,16,1673890856,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+-'  1255  16  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,39,1255,16,1673890148,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+-'  1  1  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,39,1,1,1673890013,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+-'  1  1  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,39,1,1,1673890013,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+-'  1  1  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,39,1,1,1673890011,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+-'  2  0  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,39,2,0,1673889990,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+-'  2  0  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,39,2,0,1673889990,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+-'  2  0  ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+|4,39,2,0,1673889990,"~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py"
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/.ansible/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py
+	*	1673890864	0
+	"	1257	16
+	^	1	2
+	.	1	1
+	+	1	1

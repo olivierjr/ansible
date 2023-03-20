@@ -1,0 +1,36 @@
+ar-n0-sw-01             ansible_host=10.0.20.61
+ar-n0-sw-02             ansible_host=10.0.20.62
+ar-n1-sw-01             ansible_host=10.0.20.11
+ar-n1-sw-02             ansible_host=10.0.20.12
+ar-n1-sw-03             ansible_host=10.0.20.13
+ar-n2-sw-01             ansible_host=10.0.20.21
+ar-n2-sw-02             ansible_host=10.0.20.22
+ar-n2-sw-03             ansible_host=10.0.20.23
+ar-n2-sw-04             ansible_host=10.0.20.24
+ar-n2-sw-05             ansible_host=10.0.20.25
+ar-n4-sw-01             ansible_host=10.0.20.41
+FW-ARCEP        ansible_host=10.0.0.10
+SWC-ARCEP       ansible_host=10.0.0.21
+
+
+[ACCESS_SW]
+ar-n0-sw-01
+ar-n0-sw-02 
+ar-n1-sw-01 
+ar-n1-sw-02 
+ar-n1-sw-03 
+ar-n2-sw-01 
+ar-n2-sw-02 
+ar-n2-sw-03 
+ar-n2-sw-04 
+ar-n2-sw-05 
+ar-n4-sw-01 
+
+[FW]
+FW-ARCEP
+
+[TELNET_SW]
+SWC-ARCEP
+
+[CORE_SW]
+SWC-ARCEP

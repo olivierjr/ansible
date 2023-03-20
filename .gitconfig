@@ -1,0 +1,5 @@
+[init]
+	defaultBranch = main
+[user]
+	email = ansiblesysadmin@ansible.test
+	name = The Ansible SysAdmin
